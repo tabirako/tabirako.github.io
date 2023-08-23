@@ -1,0 +1,248 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 1000px;
+  background: #fff;
+  font-size: 1.05em;
+  background-color: #d3d3d3
+}
+
+* {
+  font-family: times
+}
+
+a:hover {
+  text-decoration: none
+}
+
+h1 {
+  font-size: 26px;
+  padding: 0;
+  color: red;
+  margin: 10px 0 5px 0
+}
+
+h2 {
+  font-size: 23px;
+  padding: 0;
+  color: red;
+  margin: 10px 0 5px 0
+}
+
+h3 {
+  margin: 15px 0 .2em 0;
+  padding: 0;
+  color: red;
+  font-size: 20px
+}
+
+h4 {
+  color: #fff;
+  text-decoration: bold;
+  font-size: 18px;
+  margin: 10px
+}
+
+p {
+  font-size: 17px;
+  margin: .4em 0 .8em 0;
+  padding: 0;
+  color: #fff
+}
+
+img {
+  margin: 5px 0 5px
+}
+
+table.sitemap {
+  border: 4px inset;
+  width: 100%;
+  height: 200%;
+  text-align: left;
+  font-size: 16px;
+  background-color: #d3d3d3
+}
+
+table.sitemap td {
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  background: #d3d3d3
+}
+
+.iframe {
+  min-height: 1000px;
+  background-color: transparent
+}
+
+.window-body {
+  padding-right: 5px
+}
+
+.window-body p {
+  font-family: times;
+  color: #000;
+  font-size: 17px
+}
+
+.window-body img {
+  border: 2px inset #aaa
+}
+
+table {
+  font-family: times;
+  font-size: 14px
+}
+
+#header {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0
+}
+
+#header p {
+  padding: .5em 15px .2em 15px;
+  margin: 0
+}
+
+#header h1 {
+  padding: .2em 15px;
+  margin: 0
+}
+
+#header h2 {
+  padding: .2em 15px .7em 15px;
+  margin: 0
+}
+
+#button {
+  font-family: times;
+  font-size: 12px;
+  border: 4px ridge silver;
+  position: fixed;
+  right: 25px;
+  top: 560px;
+  width: 160px;
+  height: 150px;
+  padding: 0 20px 0 15px;
+  overflow: hidden;
+  background-image: url(https://64.media.tumblr.com/cdc75e8b3c8cc048281d5d27d6487aaf/418e108b52cee096-ee/s1280x1920/493379ffad3346a030f383aa19a634ac880dcef2.jpg);
+  background-size: 100%;
+  box-shadow: 3px 3px #000
+}
+
+#colmask {
+  border: 4px inset;
+  position: relative;
+  clear: both;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 8px 0;
+  background-color: #fff
+}
+
+#colmid {
+  float: left;
+  width: 200%;
+  position: relative;
+  left: 200px;
+  border-left: 1px solid #fff
+}
+
+#colright {
+  float: left;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  margin-left: -400px;
+  border-left: 1px solid #fff
+}
+
+#col1wrap {
+  float: right;
+  width: 50%;
+  position: relative;
+  right: 100%
+}
+
+#col1pad {
+  margin: 0 15px 0 415px;
+  overflow: visible
+}
+
+#col1 {
+  width: 100%;
+  overflow: visible
+}
+
+#colintro {
+  width: auto;
+  padding: 1px 10px 5px 20px;
+  overflow: hidden;
+  border: 1px inset #fff;
+  background-image: url(https://cinni.net/images/web/bg/spacebgani3.gif)
+}
+
+.image01,
+.image02,
+.image03,
+.image04,
+.image05,
+.image06 {
+  width: 90px;
+  height: 100px;
+  margin: 0
+}
+
+#col2 {
+  float: left;
+  width: 170px;
+  position: relative;
+  margin-left: -50%;
+  left: 215px;
+  overflow: hidden
+}
+
+#col3 {
+  float: left;
+  width: 170px;
+  position: relative;
+  left: 15px;
+  overflow: hidden
+}
+
+#footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0
+}
+
+.footersqr {
+  text-align: center;
+  font-size: smaller;
+  color: #ff002b;
+  margin: 10px auto;
+  width: 155px;
+  padding: 5px;
+  border: ridge 3px gold;
+  background-image: url(https://sadhost.neocities.org/images/tiles/comp016.gif)
+}
+
+@media only screen and (max-width:900px) {
+  #header {
+    display: none
+  }
+
+  #colmask {
+    position: relative;
+    top: 250px
+  }
+
+  a {
+    color: #00f
+  }
+}
