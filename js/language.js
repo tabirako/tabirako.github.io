@@ -38,13 +38,13 @@ if (!lang) {
 function showContent() {
     lang = getCookie("language");
     if (lang === "ja") {
-        document.getElementById("headtitle").innerHTML = "桐野の蝋人形";
-        document.getElementById("aboutme").innerHTML = "ja-aboutme-test";
+        document.getElementById("headtitle").innerHTML = "KCの随想録";
+        document.getElementById("aboutme").innerHTML = "私はKC(KirisameCirno)と申します。<br>音楽全般、ゲームとアニメ関係のが好きです。<br> ピアノ、アコーディオンとフルート奏者であります。喉歌もできるです<br>ご覧いただきありがとうございます！";
         document.getElementById("whatisthis").innerHTML = "ja-whatisthis-test";
         document.getElementById("webinfo").innerHTML = "ja-webinfo-test";
         document.getElementById("madeby").innerHTML = "作成者：ItzPeto";
     } else if (lang === "zh") {
-        document.getElementById("headtitle").innerHTML = "桐乃的蠟板";
+        document.getElementById("headtitle").innerHTML = "KC的隨草";
         document.getElementById("aboutme").innerHTML = "zh-aboutme-test";
         document.getElementById("whatisthis").innerHTML = "zh-whatisthis-test";
         document.getElementById("webinfo").innerHTML = "zh-webinfo-test";
