@@ -39,7 +39,7 @@ function showContent() {
     lang = getCookie("language");
     if (lang === "ja") {
         document.getElementById("headtitle").innerHTML = "KCの随想録";
-        document.getElementById("aboutme").innerHTML = "私は<strong id="usernameid">KC(KirisameCirno)</strong>と申します。<br>
+        document.getElementById("aboutme").innerHTML = "私は<strong id='usernameid'>KC(KirisameCirno)</strong>と申します。<br>
                                                         音楽全般、ゲームとアニメ関係のが好きです。<br>
                                                         ピアノ、アコーディオンとフルート奏者であります。喉歌もできるです<br>
                                                         ご覧いただきありがとうございます！";
