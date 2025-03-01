@@ -43,8 +43,8 @@ function showContent() {
                                                         音楽全般、ゲームとアニメ関係のが好きです。<br>
                                                         ピアノ、アコーディオンとフルート奏者であります。喉歌もできるです<br>
                                                         ご覧いただきありがとうございます！";
-        document.getElementById("whatisthis").innerHTML = "ja-whatisthis-test";
-        document.getElementById("webinfo").innerHTML = "ja-webinfo-test";
+        document.getElementById("whatisthis").innerHTML = "このサイトについて";
+        document.getElementById("webinfo").innerHTML = "できるだけ簡単な方法で個人ページを作りました！";
         document.getElementById("madeby").innerHTML = "作成者：ItzPeto";
     } else if (lang === "zh") {
         document.getElementById("headtitle").innerHTML = "KC的隨草";
