@@ -45,8 +45,8 @@ function showContent() {
         document.getElementById("madeby").innerHTML = "作成者：ItzPeto";
     } else if (lang === "zh") {
         document.getElementById("headtitle").innerHTML = "KC的隨草";
-        document.getElementById("aboutme").innerHTML = "zh-aboutme-test";
-        document.getElementById("whatisthis").innerHTML = "我叫做<strong id='usernameid'>KC(KirisameCirno)</strong>。<br>興趣是音樂，遊戲，動畫和漫畫。<br>喜歡各種飲料和料理，尤其是台灣茶，同時是業餘無線電操作者（現在是台灣三等業餘無線電人員+日本第三級アマチュア無線技士）<br>能夠彈奏鋼琴，手風琴和一點點的長笛<br>感謝您的來訪！";
+        document.getElementById("aboutme").innerHTML = "我叫做<strong id='usernameid'>KC(KirisameCirno)</strong>。<br>興趣是音樂，遊戲，動畫和漫畫。<br>喜歡各種飲料和料理，尤其是台灣茶，同時是業餘無線電操作者（現在是台灣三等業餘無線電人員+日本第三級アマチュア無線技士）<br>能夠彈奏鋼琴，手風琴和一點點的長笛<br>感謝您的來訪！";
+        document.getElementById("whatisthis").innerHTML = "關於這個網站";
         document.getElementById("webinfo").innerHTML = "試圖用簡單的方法製作了網站";
         document.getElementById("madeby").innerHTML = "由 ItzPeto 製作";
     } else if (lang === "tw") {
