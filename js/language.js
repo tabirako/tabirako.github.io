@@ -41,7 +41,7 @@ function showContent() {
         document.getElementById("headtitle").innerHTML = "KCの随想録";
         document.getElementById("aboutme").innerHTML = "私は<strong id='usernameid'>KC(KirisameCirno)</strong><strong>(KC)</strong>と申します。<br>音楽全般、ゲームとアニメ関係のが好きです。<br>色んな料理と飲み物、特に台湾茶が好きです。アマチュア無線を扱っている人（第三級アマチュア無線技士+台湾三等業餘無線電人員)<br>ピアノ、アコーディオンとフルート奏者であります。喉歌もできるです<br>ご覧いただきありがとうございます！";
         document.getElementById("whatisthis").innerHTML = "このサイトについて：私のビジョン";
-        document.getElementById("webinfo").innerHTML = "できるだけ簡単な方法で個人ページを作りました！ここで世界中の人々に自由に私の興味と生活を共有できます。SNSはいつもユーザーに何をすべきかを仄めかしています。でも個人サイトでは制限なく、自由に発揮できる場所であります。;
+        document.getElementById("webinfo").innerHTML = "できるだけ簡単な方法で個人ページを作りました！ここで世界中の人々に自由に私の興味と生活を共有できます。SNSはいつもユーザーに何をすべきかを仄めかしています。でも個人サイトでは制限なく、自由に発揮できる場所であります。";
         document.getElementById("madeby").innerHTML = "ItzPeto によって作成";
     } else if (lang === "zh") {
         document.getElementById("headtitle").innerHTML = "KC隨草";
