@@ -53,7 +53,7 @@ function showContent() {
         document.getElementById("headtitle").innerHTML = "KC个簿仔紙";
         document.getElementById("aboutme").innerHTML = "小生號作<strong id='usernameid'>KC(KirisameCirno)</strong>，平時叫<strong>KC</strong>就好<br><ruby>家己<rp>(</rp><rt>Ka-ddi</rt><rp>)</ruby>个趣味是音樂、電動佮動畫。<br>逐種个料理佮飲料攏佮意，尤其是台灣茶<br>我也是業餘<ruby>ラジオ<rp>(</rp><rt>Radio</rt><rp>)</rp> </ruby>人員（現此時有台灣三等業餘無線電人員+日本第三級アマチュア無線技士）<br>會曉彈鋼琴、拉手風琴佮歕一點𥰔仔﹐嘛曉呼麥<br>感謝來咱這坐喔！";
         document.getElementById("whatisthis").innerHTML = "這是啥款所在：咱个願望";
-        document.getElementById("webinfo").innerHTML = "盡量用簡單个方法做了這个所在！佇這會使自由佮全世界个人分享我个趣味佮生活。別人大公司管个所在嘛攏愛伊个使用者去做𪜶欲佮意个，當然就無自獨立。個人个所在使我有一个無受限制，自由發揮个所在";
+        document.getElementById("webinfo").innerHTML = "盡量用簡單个方法做了這个所在！佇這會使自由佮全世界个人分享我个趣味佮生活。別人大公司管个所在嘛攏愛伊个使用者去做𪜶欲佮意个，當然<ruby>家己<rp>(</rp><rt>Ka-ddi</rt><rp>)</ruby>就袂獨立。個人个所在使我有一个無受限制，自由發揮个所在";
         document.getElementById("madeby").innerHTML = "Itzpeto 造个所在";
     }
 }
