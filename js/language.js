@@ -45,11 +45,11 @@ const translationForTable = {
     },
     zh: {
         game: "我做的遊戲",
-        note: "Roblox"
+        note: "Roblox 殺死了聊天功能，所以 RIP"
     },
     tw: {
         game: "Kaddi創个電動",
-        note: "Roblox"
+        note: "Roblox 拍掉聊天功能，所以 RIP"
     }
 };
 
