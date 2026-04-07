@@ -57,7 +57,7 @@ const translationForTable = {
 function showContent() {
     lang = getCookie("language");
     
-    const t = translationForTable[lang];
+    const t = translationForTable[lang] || translationForTable["en"];
     document.getElementById("robloxGameLink").innerHTML = `
     <a href="https://www.roblox.com/games/17202293479/Teahouse-Umigiri-A-Tea-making-simulator" style="color:blue">
       <s>${t.game}</s>
