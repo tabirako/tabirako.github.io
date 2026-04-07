@@ -39,17 +39,17 @@ const translationForTable = {
         game: "The game I made",
         note: "Roblox killed Chat so RIP"
     },
-    jp: {
+    ja: {
         game: "作ったゲーム",
-        note: "Robloxがチャット機能を殺したのでこのゲームはもう意味がない"
+        note: "Robloxがチャット機能をめちゃくちゃにしてしまったのでこのゲームはもう意味がない"
     },
     zh: {
         game: "我做的遊戲",
-        note: "Robloxがチャット機能を殺したのでこのゲームはもう意味がない"
+        note: "Roblox"
     },
     tw: {
         game: "Kaddi創个電動",
-        note: "Robloxがチャット機能を殺したのでこのゲームはもう意味がない"
+        note: "Roblox"
     }
 };
 
