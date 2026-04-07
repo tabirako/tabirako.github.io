@@ -36,11 +36,19 @@ if (!lang) {
 
 const translationForTable = {
     en: {
-        game: "My game",
+        game: "The game I made",
         note: "Roblox killed Chat so RIP"
     },
     jp: {
-        game: "私のゲーム",
+        game: "作ったゲーム",
+        note: "Robloxがチャット機能を殺したのでこのゲームはもう意味がない"
+    },
+    zh: {
+        game: "我做的遊戲",
+        note: "Robloxがチャット機能を殺したのでこのゲームはもう意味がない"
+    },
+    tw: {
+        game: "Kaddi創个電動",
         note: "Robloxがチャット機能を殺したのでこのゲームはもう意味がない"
     }
 };
