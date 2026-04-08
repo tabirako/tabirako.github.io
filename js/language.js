@@ -62,7 +62,7 @@ function showContent() {
     <a href="https://www.roblox.com/games/17202293479/Teahouse-Umigiri-A-Tea-making-simulator" style="color:blue">
       <s>${t.game}</s>
     </a>
-    <span style="color: black;">${t.note}</span>
+    <span style="color: black; font-size: 80%;">${t.note}</span>
     `;
 
     if (lang === "ja") {
