@@ -34,22 +34,23 @@ if (!lang) {
     setCookie("language", lang, 365); // actually do it
 }
 
+// store the multi language for table
 const translationForTable = {
     en: {
         game: "The game I made",
-        note: "Roblox killed Chat so RIP"
+        note: "Fricking Roblox killed Chat RIP"
     },
     ja: {
         game: "作ったゲーム",
-        note: "Robloxがチャット機能をめちゃくちゃにしてしまったのでこのゲームはもう意味がない"
+        note: "くそRobloxはチャット機能を壊したのでもう無理"
     },
     zh: {
         game: "我做的遊戲",
-        note: "Roblox 殺死了聊天功能，所以 RIP"
+        note: "被他媽的Roblox搞了，聊天欄已死"
     },
     tw: {
         game: "Kaddi創个電動",
-        note: "Roblox 拍掉聊天功能，所以 RIP"
+        note: "乎恁娘Roblox創孔，袂趟講話啊"
     }
 };
 
@@ -57,12 +58,15 @@ const translationForTable = {
 function showContent() {
     lang = getCookie("language");
     
+    // this part rewrite part of the table
+    // this <span> style sheet will override the one in the main html file
+    // added || translationForTable["en"]; part in case the cookie or the table index are incorrect
     const t = translationForTable[lang] || translationForTable["en"];
     document.getElementById("robloxGameLink").innerHTML = `
     <a href="https://www.roblox.com/games/17202293479/Teahouse-Umigiri-A-Tea-making-simulator" style="color:blue">
       <s>${t.game}</s>
     </a>
-    <span style="color: black; font-size: 80%;">${t.note}</span>
+    <span style="color: black; font-size: 70%; white-space: nowrap;">${t.note}</span>
     `;
 
     if (lang === "ja") {
