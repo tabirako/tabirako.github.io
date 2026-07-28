@@ -42,7 +42,7 @@ const translationForTable = {
     },
     ja: {
         game: "作ったゲーム",
-        note: "くそRobloxはチャット機能を壊したのでもう無理"
+        note: "Robloxのチャット改悪により、くそ"
     },
     zh: {
         game: "我做的遊戲",
