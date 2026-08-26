@@ -28,6 +28,8 @@ if (!lang) {
         lang = "ja";
     } else if (browserLang.includes("zh")) {
         lang = "zh";
+    } else if (browserLang.includes("ko")) {
+        lang = "ko";
     } else {
         lang = "en";
     }
@@ -42,7 +44,7 @@ const translationForTable = {
     },
     ja: {
         game: "作ったゲーム",
-        note: "Robloxのチャット改悪により、くそ"
+        note: "チャット改悪により、くそになった"
     },
     zh: {
         game: "我做的遊戲",
@@ -51,6 +53,10 @@ const translationForTable = {
     tw: {
         game: "Kaddi創个電動",
         note: "乎恁娘Roblox創孔，袂趟講話啊"
+    },
+    ko: {
+        game: "korean game placeholder",
+        note: "korean note placeholder"
     }
 };
 
@@ -91,6 +97,12 @@ function showContent() {
             document.getElementById("whatisthis").innerHTML = "這是啥款所在：咱个願望";
             document.getElementById("webinfo").innerHTML = "盡量用簡單个方法做了這个所在！佇這會使自由佮全世界个人分享我个趣味佮生活。別人大公司管个所在嘛攏愛伊个使用者去做𪜶欲佮意个，當然<ruby>家己<rp>(</rp><rt>Ka-ddi</rt><rp>)</ruby>就袂獨立。這才是一个會使無受限制，自由發揮个所在";
             document.getElementById("madeby").innerHTML = "Itzpeto 造个所在";
+        } else if (lang === "ko") {
+            document.getElementById("headtitle").innerHTML = "korean title";
+            document.getElementById("aboutme").innerHTML = "korean aboutme";
+            document.getElementById("whatisthis").innerHTML = "korean what is this";
+            document.getElementById("webinfo").innerHTML = "korean web info";
+            document.getElementById("madeby").innerHTML = "korean made by";
         }
     }
 }
