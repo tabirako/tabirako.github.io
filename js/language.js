@@ -55,8 +55,8 @@ const translationForTable = {
         note: "乎恁娘Roblox創孔，袂趟講話啊"
     },
     ko: {
-        game: "korean game placeholder",
-        note: "korean note placeholder"
+        game: "내가 만든 게임",
+        note: "로블록스가 채팅개편으로 망쳤어, 띵복에 액션빔"
     }
 };
 
