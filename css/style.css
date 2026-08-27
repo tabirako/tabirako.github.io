@@ -240,13 +240,17 @@ table {
 }
 
 @media only screen and (max-width:900px) {
+  body {
+    width: 100%;
+  }
+
   #header {
     display: none
   }
 
   #colmask {
     position: relative;
-    top: 250px
+    top: 0
   }
 
   a {
