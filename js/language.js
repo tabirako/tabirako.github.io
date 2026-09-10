@@ -99,9 +99,9 @@ function showContent() {
             document.getElementById("madeby").innerHTML = "Itzpeto 造个所在";
         } else if (lang === "ko") {
             document.getElementById("headtitle").innerHTML = "KC의 개인기록";
-            document.getElementById("aboutme").innerHTML = "저는<strong id='usernameid'>KC(KirisameCirno)</strong>라고 합니다<br>나는 음악, 게임 그리고 애니메이션과 관련된 모든 것을 좋아해.<br>온갖 종류의 음식과 음료를 좋아하며, 특히 대만의 차를 좋아해.<br>일본에선 2급 아마추어 무선통신 자격증을 대만에선 3급 아마추어 무선통신 자격증을 가지고 있어.<br>나는 여러가지 악기를 연주 할 수있어, 주로 피아노와 아코디언을 하고, 플루트도 조금 연주 할 수 있어.<br>오버톤 창법도 어느정도 할 수 있어<br>방문해줘서 고마워.";
+            document.getElementById("aboutme").innerHTML = "나는<strong id='usernameid'>KC(KirisameCirno)</strong> 라고 해.<br>나는 음악, 게임 그리고 애니메이션과 관련된 모든 것을 좋아해.<br>온갖 종류의 음식과 음료를 좋아하며, 특히 대만의 차를 좋아해.<br>일본에선 2급 아마추어 무선통신 자격증을 대만에선 3급 아마추어 무선통신 자격증을 가지고 있어.<br>나는 여러 가지 악기를 연주할 수 있어, 주로 피아노와 아코디언을 하고, 플루트도 조금 연주 할 수 있어.<br>오버톤 창법도 어느 정도 할 수 있어.<br>방문해줘서 고마워.";
             document.getElementById("whatisthis").innerHTML = "무슨 홈페이지인가요?";
-            document.getElementById("webinfo").innerHTML = "이 홈페이지는 제 개인 웹사이트이며, 제가 관심있는 것들에 대해서 이야기하면서 인터넷을 통해서 다른 사람들과 제 삶과 취미를 공유하는 공간입니다!<br>웹 3.0을 비롯한 그 이후의 인터넷은 끊임 없이 유저들의 개성을 제한하려 해왔습니다.이 홈페이지는 현대의 소셜 미디어의 제약 없이 저 자신을 표현하기 위한 하나의 공간입니다.";
+            document.getElementById("webinfo").innerHTML = "이 홈페이지는 제 개인 웹사이트이며, 제가 관심있는 것들에 대해서 이야기하면서 인터넷을 통해서 다른 사람들과 제 삶과 취미를 공유하는 공간입니다!<br>웹 3.0을 비롯한 그 이후의 인터넷은 끊임없이 유저들의 개성을 제한하려 해왔습니다. 이 홈페이지는 현대의 소셜 미디어의 제약 없이 저 자신을 표현하기 위한 하나의 공간입니다.";
             document.getElementById("madeby").innerHTML = "Made by Itzpeto";
         }
     }
